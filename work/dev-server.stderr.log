@@ -1,0 +1,1555 @@
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ [TypeError: a[d] is not a function] { digest: '3662256466' }
+[TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function]
+ ⨯ [TypeError: a[d] is not a function] { page: '/torre' }
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7473) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ TypeError: a[d] is not a function
+    at Object.c [as require] (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js:1:127) {
+  digest: '3662256466'
+}
+TypeError: a[d] is not a function
+    at Object.c [as require] (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js:1:127)
+ ⨯ TypeError: a[d] is not a function
+    at Object.c [as require] (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js:1:127)
+ ⨯ TypeError: a[d] is not a function
+    at Object.c [as require] (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js:1:127) {
+  page: '/proyecto'
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11049)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11102) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/simulador'
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\proyecto\page.js:2:17760)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\proyecto\page.js:2:17814) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/proyecto'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11049)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11102) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/simulador'
+}
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\proyecto\page.js:2:17760)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\proyecto\page.js:2:17814) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/proyecto'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\icon.png\route.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11049)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11102) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/simulador'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11049)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\simulador\page.js:2:11102) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/simulador'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7416)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\torre\page.js:2:7470) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/torre'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './331.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7506)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\page.js:2:7560) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\webpack-runtime.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\app\contacto\page.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\require.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\load-components.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\utils.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\options.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\swc\index.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (C:\Users\cacha\Documents\Codex\2026-06-10\crea-una-web-para-bonxur-con\.next\server\pages\_document.js:1:371) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]

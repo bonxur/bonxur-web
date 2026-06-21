@@ -1,0 +1,45 @@
+
+> bonxur-web@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.47:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (684 modules)
+ ✓ Compiled in 3.5s (258 modules)
+ ✓ Compiled in 236ms (258 modules)
+ GET / 200 in 6291ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 989ms (443 modules)
+ GET /icon.png?373222a75e54a692 200 in 1353ms
+ ○ Compiling /simulador ...
+ ✓ Compiled /simulador in 631ms (695 modules)
+ GET /simulador 200 in 899ms
+ ○ Compiling /cultivos ...
+ ✓ Compiled /cultivos in 567ms (701 modules)
+ GET /cultivos 200 in 791ms
+ ✓ Compiled /soluciones in 482ms (686 modules)
+ GET /soluciones 200 in 905ms
+ ○ Compiling /proyecto ...
+ ✓ Compiled /proyecto in 590ms (688 modules)
+ GET /proyecto 200 in 773ms
+ ○ Compiling /contacto ...
+ ✓ Compiled /contacto in 557ms (696 modules)
+ GET /contacto 200 in 678ms
+ ○ Compiling /torre ...
+ ✓ Compiled /torre in 909ms (701 modules)
+ GET /torre 200 in 1119ms
+ GET /cultivos 200 in 115ms
+ GET /soluciones 200 in 90ms
+ GET /contacto 200 in 60ms
+ GET /proyecto 200 in 97ms
+ GET /contacto 200 in 50ms
+ GET /simulador 200 in 69ms
+ GET /torre 200 in 124ms
+ ✓ Compiled in 468ms (264 modules)
+ GET /simulador 200 in 55ms
+ GET /proyecto 200 in 82ms

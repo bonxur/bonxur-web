@@ -1,0 +1,282 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-950: #061d15;
+  --color-forest-900: #0c3427;
+  --color-forest-800: #15513d;
+  --color-leaf-600: #20a75d;
+  --color-leaf-500: #48d17b;
+  --color-leaf-100: #dcf8e6;
+  --color-mist-50: #f5f8f7;
+  --color-mist-100: #e9efec;
+  --color-skysoft-100: #e4f3f7;
+  --color-skysoft-500: #61b6ce;
+  --font-sans: "Segoe UI Variable", "Avenir Next", "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --ink: #061d15;
+  --line: rgba(6, 29, 21, 0.1);
+  --line-strong: rgba(6, 29, 21, 0.18);
+  --mint-glow: rgba(72, 209, 123, 0.16);
+  --cyan-glow: rgba(97, 182, 206, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(rgba(6, 29, 21, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 29, 21, 0.018) 1px, transparent 1px),
+    #ffffff;
+  background-size: 64px 64px;
+  color: #14362a;
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01" 1, "cv02" 1, "cv03" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  overflow: clip;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: #a9efbf;
+  color: #061d15;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #20a75d;
+  outline-offset: 3px;
+}
+
+.container-page {
+  width: min(1220px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 2rem;
+  border: 1px solid rgba(6, 29, 21, 0.13);
+  border-radius: 0.65rem;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 0.42rem 0.7rem;
+  color: #15513d;
+  font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  font-size: 0.66rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.eyebrow::before {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 0.14rem;
+  background: #48d17b;
+  content: "";
+  box-shadow:
+    0 0 0 3px rgba(72, 209, 123, 0.12),
+    0 0 16px rgba(72, 209, 123, 0.65);
+  transform: rotate(45deg);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(72, 209, 123, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(72, 209, 123, 0.07) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black 8%, transparent 90%);
+}
+
+.tech-grid {
+  background-image:
+    linear-gradient(rgba(97, 182, 206, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(97, 182, 206, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.tech-dots {
+  background-image: radial-gradient(circle, rgba(72, 209, 123, 0.25) 1px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.soft-shadow {
+  box-shadow:
+    0 36px 90px rgba(6, 29, 21, 0.16),
+    0 8px 24px rgba(6, 29, 21, 0.08);
+}
+
+.tech-card {
+  position: relative;
+  isolation: isolate;
+  box-shadow:
+    0 18px 50px rgba(6, 29, 21, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.tech-card::before {
+  position: absolute;
+  top: -1px;
+  left: 1.4rem;
+  width: 3rem;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #48d17b, #61b6ce);
+  content: "";
+  opacity: 0.78;
+}
+
+.tech-label {
+  font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.input-base {
+  width: 100%;
+  border: 1px solid #cfdbd5;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 0.86rem 0.95rem;
+  color: #0c3427;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(6, 29, 21, 0.025);
+  transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.input-base:hover {
+  border-color: #abc1b7;
+}
+
+.input-base:focus {
+  border-color: #20a75d;
+  background: #fff;
+  box-shadow:
+    0 0 0 4px rgba(32, 167, 93, 0.11),
+    inset 0 1px 2px rgba(6, 29, 21, 0.02);
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(6, 29, 21, 0.08);
+  background:
+    linear-gradient(rgba(6, 29, 21, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 29, 21, 0.025) 1px, transparent 1px),
+    radial-gradient(circle at 84% 8%, rgba(97, 182, 206, 0.2), transparent 27%),
+    radial-gradient(circle at 10% 90%, rgba(72, 209, 123, 0.12), transparent 24%),
+    linear-gradient(135deg, #f2f7f5 0%, #ffffff 55%, #edf7f1 100%);
+  background-size: 48px 48px, 48px 48px, auto, auto, auto;
+}
+
+.page-hero::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 610px);
+  width: 1px;
+  background: linear-gradient(transparent, rgba(32, 167, 93, 0.22), transparent);
+  content: "";
+}
+
+.page-hero::after {
+  position: absolute;
+  right: -8rem;
+  bottom: -9rem;
+  width: 25rem;
+  height: 25rem;
+  border: 1px solid rgba(32, 167, 93, 0.18);
+  border-radius: 999px;
+  content: "";
+  box-shadow:
+    0 0 0 42px rgba(32, 167, 93, 0.035),
+    0 0 0 84px rgba(97, 182, 206, 0.025);
+}
+
+.dark-panel {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 90% 5%, rgba(72, 209, 123, 0.1), transparent 25%),
+    linear-gradient(145deg, #061d15, #08271d);
+}
+
+.dark-panel::before {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(72, 209, 123, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(72, 209, 123, 0.035) 1px, transparent 1px);
+  background-size: 36px 36px;
+  content: "";
+  mask-image: linear-gradient(120deg, black, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-dark .eyebrow {
+  border-color: rgba(255, 255, 255, 0.11);
+  background: rgba(255, 255, 255, 0.055);
+  color: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hero-dark .eyebrow::before {
+  background: #48d17b;
+}
+
+@media (min-width: 768px) {
+  .container-page {
+    width: min(1220px, calc(100% - 4rem));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
