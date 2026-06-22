@@ -111,7 +111,7 @@ export default function Home() {
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
-                src="/images/bonxur-cultivo.webp"
+                src="/images/torre-con-plantas.jpg"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-forest-950/78 via-forest-950/28 to-transparent px-6 pb-6 pt-28 text-white">
                 <p className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-100">
