@@ -134,7 +134,7 @@ export function QuestionnaireForm() {
       });
 
       if (!response.ok) {
-        throw new Error("Formspree no aceptó la solicitud.");
+        throw new Error("No se pudo completar el envío.");
       }
 
       setStatus("success");
@@ -147,7 +147,7 @@ export function QuestionnaireForm() {
 
   return (
     <form
-      className="rounded-[2rem] border border-forest-900/10 bg-white p-6 shadow-[0_24px_70px_rgba(12,54,37,0.09)] sm:p-9"
+      className="rounded-[2rem] border border-forest-900/10 bg-white/96 p-5 shadow-[0_24px_70px_rgba(12,54,37,0.08)] sm:p-8 lg:p-9"
       noValidate
       onSubmit={submit}
     >
@@ -276,8 +276,8 @@ export function QuestionnaireForm() {
               <label
                 className={`flex cursor-pointer items-center gap-3 rounded-xl border px-3 py-2.5 text-sm font-medium transition ${
                   checked
-                    ? "border-leaf-500 bg-leaf-100 text-forest-950"
-                    : "border-forest-900/10 bg-white text-forest-900/62 hover:border-leaf-500/50"
+                    ? "border-leaf-600 bg-leaf-100 text-forest-950 shadow-[0_8px_20px_rgba(32,167,93,0.1)]"
+                    : "border-forest-900/10 bg-cream-50/55 text-forest-900/62 hover:border-leaf-500/50 hover:bg-white"
                 }`}
                 key={option}
               >
@@ -329,7 +329,7 @@ export function QuestionnaireForm() {
         Enviar consulta
       </Button>
       <p className="mt-4 text-xs text-forest-900/40">
-        Tus respuestas se envían de forma segura a Bonxur mediante Formspree, sin backend propio.
+        Revisaremos tu caso y te responderemos para valorar la instalación más adecuada.
       </p>
     </form>
   );

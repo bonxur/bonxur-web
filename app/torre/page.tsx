@@ -87,11 +87,11 @@ export default function TorrePage() {
         <div className="container-page relative z-10 grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="relative mx-auto w-full max-w-[520px]">
             <div className="absolute -inset-4 rounded-[2rem] border border-forest-900/[0.055]" />
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.6rem] border border-forest-900/10 bg-forest-950 shadow-2xl">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white bg-white shadow-[0_30px_80px_rgba(6,29,21,0.12)]">
               <Image
                 alt=""
                 aria-hidden
-                className="scale-110 object-cover opacity-45 blur-xl"
+                className="scale-110 object-cover opacity-18 blur-xl"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
@@ -99,7 +99,7 @@ export default function TorrePage() {
               />
               <Image
                 alt="Torre Hidropónica Bonxur 30 de 1,5 metros"
-                className="object-contain p-4"
+                className="object-contain p-5"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
@@ -121,7 +121,7 @@ export default function TorrePage() {
               espacio, sin tierra y con sistema de recirculación.
             </p>
             <p className="mt-5 text-sm font-bold uppercase tracking-[0.12em] text-leaf-700">
-              Desde 179,99 €. Prioridad a solicitudes de Vigo y alrededores.
+              Torre de prueba disponible. Precio especial para primeras instalaciones.
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href="/cuestionario" arrow>
@@ -199,31 +199,30 @@ export default function TorrePage() {
         </div>
       </section>
 
-      <section className="dark-panel py-20 text-white sm:py-28" id="como-funciona">
+      <section className="bg-cream-50 py-20 sm:py-28" id="como-funciona">
         <div className="container-page">
           <SectionTitle
             align="center"
             eyebrow="Cómo funciona"
-            light
             title="Agua y nutrientes en un circuito continuo."
             text="La bomba mueve la solución nutritiva por la torre, las raíces absorben lo necesario y el excedente regresa al depósito."
           />
           <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {cycle.map(([number, title, text, icon]) => (
               <article
-                className="rounded-[1.5rem] border border-white/10 bg-white/[0.045] p-6 transition hover:border-leaf-500/30"
+                className="rounded-[1.5rem] border border-forest-900/10 bg-white p-6 shadow-[0_14px_42px_rgba(6,29,21,0.055)] transition hover:-translate-y-1 hover:border-leaf-500/30"
                 key={number}
               >
                 <div className="flex items-center justify-between">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-500 text-forest-950">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">
                     <Icon name={icon} size={20} />
                   </span>
-                  <span className="text-xs font-extrabold tracking-[0.15em] text-white/25">
+                  <span className="text-xs font-extrabold tracking-[0.15em] text-forest-900/25">
                     {number}
                   </span>
                 </div>
-                <h3 className="mt-7 text-xl font-bold">{title}</h3>
-                <p className="mt-3 text-sm leading-6 text-white/52">{text}</p>
+                <h3 className="mt-7 text-xl font-bold text-forest-950">{title}</h3>
+                <p className="mt-3 text-sm leading-6 text-forest-900/58">{text}</p>
               </article>
             ))}
           </div>

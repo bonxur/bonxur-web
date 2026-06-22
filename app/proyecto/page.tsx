@@ -43,12 +43,12 @@ export default function ProyectoPage() {
         title="Tecnología gallega para cultivar un futuro más cercano."
         text="Bonxur nace de una pregunta sencilla: ¿cómo podemos producir alimentos frescos allí donde vivimos, trabajamos y aprendemos?"
         aside={
-          <div className="relative mx-auto max-w-sm rounded-[2rem] bg-forest-950 p-8 text-white shadow-2xl">
-            <span className="text-6xl font-semibold tracking-[-0.08em] text-leaf-500">“</span>
+          <div className="relative mx-auto max-w-sm rounded-[2rem] border border-forest-900/10 bg-white p-8 text-forest-950 shadow-[0_24px_70px_rgba(6,29,21,0.08)]">
+            <span className="text-6xl font-semibold tracking-[-0.08em] text-leaf-600">“</span>
             <p className="-mt-2 text-2xl font-semibold leading-9 tracking-tight">
               Hacer que cultivar bien ocupe menos espacio en la tierra y más espacio en nuestras vidas.
             </p>
-            <p className="mt-6 text-xs font-bold uppercase tracking-[0.14em] text-white/40">La idea Bonxur</p>
+            <p className="mt-6 text-xs font-bold uppercase tracking-[0.14em] text-forest-900/45">La idea Bonxur</p>
           </div>
         }
       />
@@ -92,7 +92,7 @@ export default function ProyectoPage() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((value) => (
               <Card className="p-7" key={value.title}>
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-forest-950 text-leaf-500">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">
                   <Icon name={value.icon} size={21} />
                 </div>
                 <h3 className="mt-6 text-lg font-bold text-forest-950">{value.title}</h3>
@@ -103,17 +103,16 @@ export default function ProyectoPage() {
         </div>
       </section>
 
-      <section className="overflow-hidden bg-forest-950 py-20 text-white sm:py-28">
+      <section className="overflow-hidden bg-cream-50 py-20 sm:py-28">
         <div className="container-page">
           <div className="grid gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20">
             <div>
               <SectionTitle
                 eyebrow="Visión de futuro"
-                light
                 title="España puede liderar una nueva agricultura tecnológica."
                 text="Nuestro sol, clima y tradición agrícola crean una base excepcional para unir conocimiento agrario, ingeniería y nuevas formas de producción."
               />
-              <p className="mt-6 leading-8 text-white/55">
+              <p className="mt-6 leading-8 text-forest-900/60">
                 Bonxur quiere aprovechar espacios reducidos con torres hidropónicas y
                 convertirlos en puntos productivos más controlables. El objetivo es sumar
                 automatización y energía solar sin perder la sencillez de uso.
@@ -153,14 +152,14 @@ export default function ProyectoPage() {
                 },
               ].map((item) => (
                 <article
-                  className="rounded-[1.4rem] border border-white/10 bg-white/[0.045] p-6"
+                  className="rounded-[1.4rem] border border-forest-900/10 bg-white p-6 shadow-[0_14px_40px_rgba(6,29,21,0.055)]"
                   key={item.title}
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-500 text-forest-950">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">
                     <Icon name={item.icon} size={20} />
                   </span>
-                  <h3 className="mt-5 text-lg font-bold">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-6 text-white/52">{item.text}</p>
+                  <h3 className="mt-5 text-lg font-bold text-forest-950">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-forest-900/58">{item.text}</p>
                 </article>
               ))}
             </div>
@@ -181,15 +180,15 @@ export default function ProyectoPage() {
             </ButtonLink>
           </div>
           <div className="space-y-4">
-            <div className="rounded-[1.5rem] bg-forest-950 p-7 text-white sm:p-8">
+            <div className="rounded-[1.5rem] border border-leaf-600/15 bg-leaf-100 p-7 text-forest-950 sm:p-8">
               <div className="flex items-start gap-5">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-leaf-500 text-forest-950">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white text-leaf-600 shadow-sm">
                   <Icon name="zap" />
                 </span>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-leaf-500">Automatización futura</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-leaf-700">Automatización futura</p>
                   <h3 className="mt-2 text-xl font-bold">Datos que simplifican el cuidado</h3>
-                  <p className="mt-2 leading-7 text-white/55">
+                  <p className="mt-2 leading-7 text-forest-900/60">
                     Sensores, alertas y control de ciclos para anticipar necesidades y mantener
                     condiciones estables.
                   </p>

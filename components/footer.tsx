@@ -13,69 +13,48 @@ const nav = [
 
 export function Footer() {
   return (
-    <footer className="dark-panel border-t border-white/5 text-white">
-      <div className="container-page relative">
-        <div className="grid gap-3 border-b border-white/8 py-5 sm:grid-cols-3">
-          {[
-            ["SYSTEM", "Vertical hydroponics"],
-            ["ORIGIN", "Galicia · 42.8° N"],
-            ["STATUS", "Diseñando futuro"],
-          ].map(([label, value], index) => (
-            <div
-              className={`flex items-center gap-3 text-xs ${
-                index > 0 ? "sm:border-l sm:border-white/8 sm:pl-5" : ""
-              }`}
-              key={label}
-            >
-              <span className="tech-label text-[0.55rem] font-bold text-leaf-500">{label}</span>
-              <span className="text-white/42">{value}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="container-page relative grid gap-10 py-14 md:grid-cols-[1.3fr_0.7fr_0.8fr]">
+    <footer className="border-t border-forest-900/10 bg-cream-50 text-forest-950">
+      <div className="container-page grid gap-10 py-14 md:grid-cols-[1.3fr_0.7fr_0.8fr]">
         <div>
-          <Logo light />
-          <p className="mt-6 max-w-sm text-sm leading-6 text-white/48">
+          <Logo />
+          <p className="mt-6 max-w-sm text-sm leading-6 text-forest-900/62">
             Tecnología hidropónica vertical diseñada en Galicia para cultivar más,
             más cerca y con menos recursos.
           </p>
-          <div className="mt-7 inline-flex items-center gap-2 rounded-[0.55rem] border border-white/8 bg-white/[0.035] px-3 py-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-leaf-500 shadow-[0_0_10px_rgba(72,209,123,0.8)]" />
-            <span className="tech-label text-[0.54rem] font-bold text-white/38">
-              Cultivation system online
-            </span>
+          <div className="mt-7 inline-flex items-center gap-2 rounded-full border border-leaf-600/15 bg-white px-4 py-2 text-sm font-bold text-forest-900/70 shadow-sm">
+            <span className="h-2 w-2 rounded-full bg-leaf-600" />
+            Hecha en Galicia
           </div>
         </div>
         <div>
-          <p className="tech-label mb-5 text-[0.6rem] font-bold text-leaf-500">
+          <p className="mb-5 text-sm font-extrabold uppercase tracking-[0.12em] text-leaf-600">
             Explora
           </p>
           <div className="grid grid-cols-2 gap-x-5 gap-y-3 md:grid-cols-1">
             {nav.map(([label, href]) => (
-              <Link className="group flex items-center gap-2 text-sm text-white/55 transition hover:text-white" href={href} key={href}>
-                <span className="h-px w-0 bg-leaf-500 transition-all group-hover:w-3" />
+              <Link className="group flex items-center gap-2 text-sm font-semibold text-forest-900/58 transition hover:text-forest-950" href={href} key={href}>
+                <span className="h-px w-0 bg-leaf-600 transition-all group-hover:w-3" />
                 {label}
               </Link>
             ))}
           </div>
         </div>
         <div>
-          <p className="tech-label mb-5 text-[0.6rem] font-bold text-leaf-500">
+          <p className="mb-5 text-sm font-extrabold uppercase tracking-[0.12em] text-leaf-600">
             Hablemos
           </p>
-          <a className="flex items-center gap-3 text-sm text-white/55 hover:text-white" href="mailto:ola@bonxur.gal">
+          <a className="flex items-center gap-3 text-sm font-semibold text-forest-900/58 hover:text-forest-950" href="mailto:info@bonxur.com">
             <Icon name="mail" size={18} />
-            ola@bonxur.gal
+            info@bonxur.com
           </a>
-          <p className="mt-4 flex items-center gap-3 text-sm text-white/55">
+          <p className="mt-4 flex items-center gap-3 text-sm font-semibold text-forest-900/58">
             <Icon name="map" size={18} />
-            Galicia
+            Vigo y alrededores
           </p>
         </div>
       </div>
-      <div className="relative border-t border-white/8">
-        <div className="container-page flex flex-col gap-2 py-5 text-xs text-white/35 sm:flex-row sm:items-center sm:justify-between">
+      <div className="relative border-t border-forest-900/10 bg-white/45">
+        <div className="container-page flex flex-col gap-2 py-5 text-xs text-forest-900/48 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Bonxur. Cultivando futuro.</p>
           <p>Diseñado y pensado en Galicia.</p>
         </div>

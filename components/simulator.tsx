@@ -276,8 +276,8 @@ export function Simulator() {
                   <label
                     className={`flex cursor-pointer items-center justify-center gap-2 rounded-xl border px-4 py-3 text-sm font-bold transition ${
                       location === item
-                        ? "border-forest-900 bg-forest-900 text-white"
-                        : "border-forest-900/15 text-forest-900 hover:bg-mist-50"
+                        ? "border-leaf-600 bg-leaf-600 text-white"
+                        : "border-forest-900/15 text-forest-900 hover:bg-cream-50"
                     }`}
                     key={item}
                   >
@@ -297,8 +297,8 @@ export function Simulator() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden bg-forest-950 p-6 text-white sm:p-9 lg:p-10">
-          <div className="absolute -right-24 -top-20 h-80 w-80 rounded-full border-[48px] border-leaf-500/[0.04]" />
+        <div className="relative overflow-hidden bg-cream-50 p-6 text-forest-950 sm:p-9 lg:p-10">
+          <div className="absolute -right-24 -top-20 h-80 w-80 rounded-full bg-leaf-100/60 blur-3xl" />
           <div className="relative flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-leaf-500">
@@ -309,35 +309,35 @@ export function Simulator() {
             <span
               className={`self-start rounded-full border px-3 py-1.5 text-xs font-bold ${
                 results.fits
-                  ? "border-leaf-500/25 bg-leaf-500/10 text-leaf-100"
-                  : "border-amber-300/25 bg-amber-300/10 text-amber-100"
+                  ? "border-leaf-600/25 bg-leaf-100 text-forest-900"
+                  : "border-amber-400/30 bg-amber-100 text-forest-900"
               }`}
             >
               {results.fits ? "Configuración posible" : "Supera el espacio"}
             </span>
           </div>
 
-          <div className="relative mt-6 flex flex-col gap-3 rounded-xl border border-white/10 bg-white/[0.045] p-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="relative mt-6 flex flex-col gap-3 rounded-[1.25rem] border border-forest-900/10 bg-white p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="tech-label text-[0.56rem] font-bold text-white/35">
-                Sistema calculado
+              <p className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-600">
+                Torre seleccionada
               </p>
-              <p className="mt-1 text-lg font-bold text-white">Bonxur 30</p>
+              <p className="mt-1 text-lg font-bold text-forest-950">Bonxur 30</p>
             </div>
             <div className="flex gap-5 sm:text-right">
               <div>
                 <p className="text-xl font-semibold text-leaf-500">
                   {PLANTS_PER_TOWER}
                 </p>
-                <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-white/35">
+                <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-forest-900/38">
                   plantas por torre
                 </p>
               </div>
               <div>
-                <p className="text-xl font-semibold text-white">
+                <p className="text-xl font-semibold text-forest-950">
                   {formatNumber(FOOTPRINT_PER_TOWER)} m²
                 </p>
-                <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-white/35">
+                <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-forest-900/38">
                   huella por torre
                 </p>
               </div>
@@ -345,17 +345,17 @@ export function Simulator() {
           </div>
 
           <div className="relative mt-7 grid gap-4 sm:grid-cols-[0.8fr_1.2fr]">
-            <div className="flex min-h-52 flex-col items-center justify-center rounded-[1.5rem] border border-white/10 bg-white/[0.045] p-5 text-center">
+            <div className="flex min-h-52 flex-col items-center justify-center rounded-[1.5rem] border border-forest-900/10 bg-white p-5 text-center shadow-sm">
               <div
                 aria-label={`${formatNumber(results.occupancy)}% de ocupación teórica`}
                 className="relative flex h-32 w-32 items-center justify-center rounded-full"
                 style={{
                   background: `conic-gradient(${
                     results.fits ? "#56c779" : "#f2c66d"
-                  } 0deg ${occupancyAngle}deg, rgba(255,255,255,0.08) ${occupancyAngle}deg 360deg)`,
+                  } 0deg ${occupancyAngle}deg, rgba(6,29,21,0.08) ${occupancyAngle}deg 360deg)`,
                 }}
               >
-                <div className="flex h-[102px] w-[102px] flex-col items-center justify-center rounded-full bg-forest-950">
+                <div className="flex h-[102px] w-[102px] flex-col items-center justify-center rounded-full bg-white shadow-inner">
                   <span
                     className={`font-semibold tracking-[-0.05em] ${
                       results.occupancy >= 10000
@@ -367,12 +367,12 @@ export function Simulator() {
                   >
                     {formatNumber(results.occupancy)}%
                   </span>
-                  <span className="mt-1 text-[10px] font-bold uppercase tracking-[0.12em] text-white/35">
+                  <span className="mt-1 text-[10px] font-bold uppercase tracking-[0.12em] text-forest-900/38">
                     ocupación
                   </span>
                 </div>
               </div>
-              <p className="mt-4 text-xs leading-5 text-white/40">
+              <p className="mt-4 text-xs leading-5 text-forest-900/45">
                 Huella de torres frente a superficie indicada
               </p>
             </div>
@@ -397,10 +397,10 @@ export function Simulator() {
             </div>
           </div>
 
-          <div className="relative mt-4 rounded-[1.5rem] border border-white/10 bg-white/[0.045] p-5">
+          <div className="relative mt-4 rounded-[1.5rem] border border-forest-900/10 bg-white p-5 shadow-sm">
             <div className="flex items-center justify-between gap-4">
               <div>
-                <p className="text-xs font-extrabold uppercase tracking-[0.13em] text-white/35">
+                <p className="text-xs font-extrabold uppercase tracking-[0.13em] text-forest-900/38">
                   Vista de capacidad
                 </p>
                 <p className="mt-1 text-sm font-semibold">
@@ -409,7 +409,7 @@ export function Simulator() {
                 </p>
               </div>
               {towers > 6 && (
-                <span className="rounded-full bg-white/8 px-3 py-1 text-xs font-bold text-white/55">
+                <span className="rounded-full bg-leaf-100 px-3 py-1 text-xs font-bold text-forest-900/65">
                   +{formatInteger(towers - 6)}
                 </span>
               )}
@@ -419,7 +419,7 @@ export function Simulator() {
                 <MiniTower key={index} />
               ))}
             </div>
-            <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-white/8">
+            <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-forest-900/8">
               <div
                 className={`h-full rounded-full transition-all duration-300 ${
                   results.fits ? "bg-leaf-500" : "bg-amber-300"
@@ -427,7 +427,7 @@ export function Simulator() {
                 style={{ width: `${Math.min(results.occupancy, 100)}%` }}
               />
             </div>
-            <div className="mt-2 flex justify-between text-[10px] font-semibold text-white/30">
+            <div className="mt-2 flex justify-between text-[10px] font-semibold text-forest-900/38">
               <span>{formatNumber(results.area)} m² usados</span>
               <span>{formatNumber(availableArea)} m² disponibles</span>
             </div>
@@ -436,8 +436,8 @@ export function Simulator() {
           <div
             className={`relative mt-4 flex gap-3 rounded-2xl border p-4 text-sm ${
               results.fits
-                ? "border-leaf-500/25 bg-leaf-500/10 text-leaf-100"
-                : "border-amber-300/25 bg-amber-300/10 text-amber-100"
+                ? "border-leaf-600/20 bg-leaf-100 text-forest-900"
+                : "border-amber-400/25 bg-amber-100 text-forest-900"
             }`}
           >
             <Icon className="mt-0.5 shrink-0" name={results.fits ? "check" : "ruler"} size={19} />
@@ -536,21 +536,21 @@ function ResultMetric({
   warning?: boolean;
 }) {
   return (
-    <div className="flex min-h-24 flex-col justify-between rounded-2xl bg-white/[0.065] p-4">
+    <div className="flex min-h-24 flex-col justify-between rounded-2xl border border-forest-900/8 bg-white p-4 shadow-sm">
       <Icon
-        className={warning ? "text-amber-300" : accent ? "text-leaf-500" : "text-white/35"}
+        className={warning ? "text-amber-500" : accent ? "text-leaf-600" : "text-forest-900/35"}
         name={icon}
         size={17}
       />
       <div className="mt-3">
         <p
           className={`${value.length > 6 ? "text-2xl" : "text-3xl"} font-semibold tracking-[-0.05em] ${
-            warning ? "text-amber-200" : accent ? "text-leaf-500" : "text-white"
+            warning ? "text-amber-600" : accent ? "text-leaf-600" : "text-forest-950"
           }`}
         >
           {value}
         </p>
-        <p className="mt-1 text-xs text-white/40">{label}</p>
+        <p className="mt-1 text-xs text-forest-900/45">{label}</p>
       </div>
     </div>
   );
@@ -558,7 +558,7 @@ function ResultMetric({
 
 function MiniTower() {
   return (
-    <div className="relative h-28 w-9 shrink-0 rounded-t-xl border border-white/20 bg-white/85 sm:w-10">
+    <div className="relative h-28 w-9 shrink-0 rounded-t-xl border border-forest-900/10 bg-white sm:w-10">
       {[14, 37, 60, 83].map((top, index) => (
         <div key={top}>
           <span

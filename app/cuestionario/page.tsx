@@ -26,30 +26,23 @@ export default function CuestionarioPage() {
             número de torres que te interesan.
           </p>
 
-          <div className="mt-10 grid gap-4">
+          <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
             {[
               ["map", "Vigo y alrededores"],
               ["layers", "Hasta 30 plantas por torre"],
               ["droplet", "Sin tierra y con recirculación"],
+              ["sprout", "Hecha en Galicia"],
             ].map(([icon, text]) => (
               <div
-                className="flex items-center gap-4 rounded-2xl border border-forest-900/10 bg-white/75 p-4"
+                className="flex items-center gap-4 rounded-2xl border border-forest-900/10 bg-white/82 p-4 shadow-[0_12px_34px_rgba(6,29,21,0.045)]"
                 key={text}
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-100 text-leaf-600">
-                  <Icon name={icon as "map" | "layers" | "droplet"} />
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">
+                  <Icon name={icon as "map" | "layers" | "droplet" | "sprout"} />
                 </span>
                 <span className="font-bold text-forest-950">{text}</span>
               </div>
             ))}
-          </div>
-
-          <div className="mt-10 rounded-2xl bg-forest-950 p-5 text-white">
-            <p className="text-sm font-bold">Formulario preparado para Formspree</p>
-            <p className="mt-2 text-sm leading-6 text-white/55">
-              No hay backend propio, base de datos ni pasarela de pago. Cuando conectes
-              Formspree, las respuestas llegarán directamente al correo configurado.
-            </p>
           </div>
         </div>
         <QuestionnaireForm />

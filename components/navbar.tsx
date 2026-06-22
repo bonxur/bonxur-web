@@ -21,18 +21,18 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-forest-900/10 bg-white/88 shadow-[0_6px_24px_rgba(6,29,21,0.035)] backdrop-blur-2xl">
-      <div className="container-page flex h-[76px] items-center justify-between">
+    <header className="sticky top-0 z-50 border-b border-forest-900/10 bg-white/90 shadow-[0_8px_28px_rgba(6,29,21,0.045)] backdrop-blur-2xl">
+      <div className="container-page flex h-[72px] items-center justify-between">
         <Logo />
         <nav
-          className="hidden items-center gap-0.5 rounded-[0.85rem] border border-forest-900/8 bg-mist-50/80 p-1 lg:flex"
+          className="hidden items-center gap-0.5 rounded-full border border-forest-900/8 bg-cream-50/85 p-1 lg:flex"
           aria-label="Navegación principal"
         >
           {links.map((link) => {
             const active = pathname === link.href;
             return (
               <Link
-                className={`relative rounded-[0.6rem] px-3.5 py-2 text-[0.82rem] font-semibold transition ${
+                className={`relative rounded-full px-3.5 py-2 text-[0.82rem] font-semibold transition ${
                   active
                     ? "bg-white text-forest-950 shadow-[0_4px_14px_rgba(6,29,21,0.07)]"
                     : "text-forest-900/55 hover:bg-white/65 hover:text-forest-900"
@@ -49,9 +49,9 @@ export function Navbar() {
           })}
         </nav>
         <div className="hidden items-center gap-4 lg:flex">
-          <span className="tech-label flex items-center gap-2 text-[0.57rem] font-bold text-forest-900/35">
-            <span className="h-1.5 w-1.5 rounded-full bg-leaf-500 shadow-[0_0_10px_rgba(72,209,123,0.8)]" />
-            Galicia / ES
+          <span className="flex items-center gap-2 text-xs font-bold text-forest-900/45">
+            <span className="h-2 w-2 rounded-full bg-leaf-600" />
+            Hecha en Galicia
           </span>
           <ButtonLink className="min-h-10 px-4 py-2" href="/cuestionario" arrow>
             Pedir presupuesto
