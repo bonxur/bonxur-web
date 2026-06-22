@@ -52,7 +52,7 @@ export default function CultivosPage() {
         </div>
       </section>
 
-      <section className="bg-mist-50 py-20 sm:py-28">
+      <section className="agro-tech-surface py-20 sm:py-28">
         <div className="container-page">
           <SectionTitle
             eyebrow="Planifica tu torre"
@@ -78,7 +78,7 @@ export default function CultivosPage() {
               },
             ].map((item) => (
               <article
-                className="rounded-[1.4rem] border border-forest-900/10 bg-white p-6 shadow-sm"
+                className="glass-panel rounded-[1.4rem] p-6"
                 key={item.title}
               >
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-100 text-leaf-600">

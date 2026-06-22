@@ -43,7 +43,7 @@ export default function SimuladorPage() {
               text: "Interior y exterior requieren condiciones diferentes de luz, temperatura, protección y suministro eléctrico.",
             },
           ].map((item) => (
-            <article className="rounded-[1.5rem] border border-forest-900/10 bg-white p-6" key={item.title}>
+            <article className="glass-panel rounded-[1.5rem] p-6" key={item.title}>
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-100 text-leaf-600">
                 <Icon name={item.icon} size={20} />
               </span>

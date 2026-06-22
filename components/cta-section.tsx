@@ -16,12 +16,13 @@ export function CTASection({
 }: Props) {
   return (
     <section className="container-page py-16 sm:py-24">
-      <div className="relative overflow-hidden rounded-[2rem] border border-leaf-600/15 bg-gradient-to-br from-cream-50 via-white to-leaf-100/60 px-6 py-10 shadow-[0_28px_80px_rgba(6,29,21,0.09)] sm:px-10 sm:py-14 lg:px-14">
-        <div className="absolute -right-16 -top-20 h-64 w-64 rounded-full bg-leaf-100/80 blur-2xl" />
-        <div className="absolute -bottom-24 left-10 h-72 w-72 rounded-full bg-sand-100/55 blur-3xl" />
+      <div className="agro-tech-surface relative overflow-hidden rounded-[2rem] border border-leaf-600/15 px-6 py-10 shadow-[0_28px_90px_rgba(6,29,21,0.1)] sm:px-10 sm:py-14 lg:px-14">
+        <div className="circuit-lines absolute inset-0 opacity-35" />
+        <div className="absolute -right-16 -top-20 h-64 w-64 rounded-full bg-aqua-100/80 blur-2xl" />
+        <div className="absolute -bottom-24 left-10 h-72 w-72 rounded-full bg-leaf-100/70 blur-3xl" />
         <div className="relative grid items-center gap-8 lg:grid-cols-[1fr_auto]">
           <div className="max-w-2xl">
-            <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full border border-leaf-600/20 bg-white text-leaf-600 shadow-sm">
+            <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full border border-aqua-500/20 bg-white/82 text-leaf-600 shadow-sm backdrop-blur">
               <Icon name="sprout" />
             </div>
             <p className="mb-3 text-sm font-extrabold uppercase tracking-[0.12em] text-leaf-600">

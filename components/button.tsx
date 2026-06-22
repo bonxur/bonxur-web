@@ -11,11 +11,11 @@ type CommonProps = {
 
 const styles = {
   primary:
-    "border border-leaf-600 bg-leaf-600 text-white shadow-[0_14px_30px_rgba(32,167,93,0.22)] hover:-translate-y-0.5 hover:border-forest-800 hover:bg-forest-800 hover:shadow-[0_18px_38px_rgba(6,29,21,0.18)]",
+    "border border-leaf-500/40 bg-gradient-to-r from-leaf-600 via-leaf-500 to-aqua-500 text-white shadow-[0_16px_34px_rgba(32,167,93,0.25)] hover:-translate-y-0.5 hover:shadow-[0_20px_44px_rgba(40,184,184,0.24)]",
   secondary:
-    "border border-forest-900/12 bg-white/90 text-forest-900 shadow-[0_10px_24px_rgba(6,29,21,0.055)] hover:-translate-y-0.5 hover:border-leaf-600/45 hover:bg-cream-50",
+    "border border-forest-900/12 bg-white/82 text-forest-900 shadow-[0_12px_28px_rgba(6,29,21,0.06)] backdrop-blur hover:-translate-y-0.5 hover:border-aqua-500/35 hover:bg-aqua-50",
   light:
-    "border border-white bg-white text-forest-900 shadow-[0_12px_30px_rgba(6,29,21,0.16)] hover:-translate-y-0.5 hover:bg-cream-50",
+    "border border-white/85 bg-white/92 text-forest-900 shadow-[0_12px_30px_rgba(6,29,21,0.14)] backdrop-blur hover:-translate-y-0.5 hover:bg-aqua-50",
 };
 
 function classes(variant: CommonProps["variant"], className = "") {

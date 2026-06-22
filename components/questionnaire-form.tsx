@@ -147,7 +147,7 @@ export function QuestionnaireForm() {
 
   return (
     <form
-      className="rounded-[2rem] border border-forest-900/10 bg-white/96 p-5 shadow-[0_24px_70px_rgba(12,54,37,0.08)] sm:p-8 lg:p-9"
+      className="glass-panel rounded-[2rem] p-5 sm:p-8 lg:p-9"
       noValidate
       onSubmit={submit}
     >
@@ -276,8 +276,8 @@ export function QuestionnaireForm() {
               <label
                 className={`flex cursor-pointer items-center gap-3 rounded-xl border px-3 py-2.5 text-sm font-medium transition ${
                   checked
-                    ? "border-leaf-600 bg-leaf-100 text-forest-950 shadow-[0_8px_20px_rgba(32,167,93,0.1)]"
-                    : "border-forest-900/10 bg-cream-50/55 text-forest-900/62 hover:border-leaf-500/50 hover:bg-white"
+                    ? "border-aqua-500 bg-aqua-50 text-forest-950 shadow-[0_8px_20px_rgba(40,184,184,0.1)]"
+                    : "border-forest-900/10 bg-white/64 text-forest-900/62 hover:border-aqua-500/50 hover:bg-white"
                 }`}
                 key={option}
               >

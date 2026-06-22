@@ -82,7 +82,7 @@ export default function ProyectoPage() {
         </div>
       </section>
 
-      <section className="bg-mist-50 py-20 sm:py-28">
+      <section className="agro-tech-surface py-20 sm:py-28">
         <div className="container-page">
           <SectionTitle
             align="center"
@@ -103,7 +103,7 @@ export default function ProyectoPage() {
         </div>
       </section>
 
-      <section className="overflow-hidden bg-cream-50 py-20 sm:py-28">
+      <section className="overflow-hidden bg-aqua-50 py-20 sm:py-28">
         <div className="container-page">
           <div className="grid gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20">
             <div>
@@ -152,7 +152,7 @@ export default function ProyectoPage() {
                 },
               ].map((item) => (
                 <article
-                  className="rounded-[1.4rem] border border-forest-900/10 bg-white p-6 shadow-[0_14px_40px_rgba(6,29,21,0.055)]"
+                  className="glass-panel rounded-[1.4rem] p-6"
                   key={item.title}
                 >
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">

@@ -17,7 +17,7 @@ export function SectionTitle({
     <div className={`max-w-2xl ${align === "center" ? "mx-auto text-center" : ""}`}>
       {eyebrow && (
         <div className={`mb-4 flex items-center gap-3 ${align === "center" ? "justify-center" : ""}`}>
-          <span className={`h-px w-7 ${light ? "bg-leaf-500/70" : "bg-leaf-600/70"}`} />
+          <span className={`h-px w-8 ${light ? "bg-leaf-500/70" : "bg-gradient-to-r from-leaf-600 to-aqua-500"}`} />
           <p
             className={`tech-label text-[0.68rem] font-extrabold ${
               light ? "text-leaf-500" : "text-leaf-600"

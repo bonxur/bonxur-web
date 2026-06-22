@@ -11,8 +11,8 @@ export function CropCard({ crop }: { crop: Crop }) {
   const [imageSrc, setImageSrc] = useState(crop.image);
 
   return (
-    <article className="group overflow-hidden rounded-[1.5rem] border border-forest-900/10 bg-white shadow-[0_12px_32px_rgba(12,54,37,0.05)] transition hover:-translate-y-1 hover:shadow-xl">
-      <div className="relative h-52 overflow-hidden bg-leaf-100">
+    <article className="glass-panel group overflow-hidden rounded-[1.5rem] transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="relative h-52 overflow-hidden bg-gradient-to-br from-leaf-100 to-aqua-100">
         <Image
           alt={`${crop.name} para cultivo hidropónico`}
           className="object-cover transition duration-500 group-hover:scale-105"
@@ -34,7 +34,7 @@ export function CropCard({ crop }: { crop: Crop }) {
             <h2 className="text-2xl font-bold tracking-tight text-forest-950">{crop.name}</h2>
             <p className="mt-2 text-sm leading-6 text-forest-900/55">{crop.summary}</p>
           </div>
-          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-leaf-100 text-leaf-600">
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-aqua-50 text-leaf-600">
             <Icon name="sprout" size={19} />
           </span>
         </div>
@@ -42,7 +42,7 @@ export function CropCard({ crop }: { crop: Crop }) {
         <details className="mt-5 border-t border-forest-900/8 pt-4">
           <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-bold text-leaf-700 marker:hidden">
             Ver más información
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-mist-100">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-aqua-50">
               <Icon name="arrow" size={15} />
             </span>
           </summary>
@@ -68,7 +68,7 @@ export function CropCard({ crop }: { crop: Crop }) {
 
 function Info({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-xl border border-forest-900/8 bg-mist-50 p-3">
+    <div className="rounded-xl border border-aqua-500/12 bg-aqua-50 p-3">
       <p className="text-[10px] font-extrabold uppercase tracking-[0.1em] text-forest-900/35">
         {label}
       </p>

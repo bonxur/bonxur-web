@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function CuestionarioPage() {
   return (
     <section className="page-hero py-16 sm:py-20 lg:py-24">
+      <div className="topo-lines absolute inset-0 opacity-40" />
       <div className="container-page relative z-10 grid gap-12 lg:grid-cols-[0.72fr_1.28fr] lg:gap-20">
         <div>
           <span className="eyebrow">Pruebas en Vigo</span>
@@ -34,7 +35,7 @@ export default function CuestionarioPage() {
               ["sprout", "Hecha en Galicia"],
             ].map(([icon, text]) => (
               <div
-                className="flex items-center gap-4 rounded-2xl border border-forest-900/10 bg-white/82 p-4 shadow-[0_12px_34px_rgba(6,29,21,0.045)]"
+                className="glass-panel flex items-center gap-4 rounded-2xl p-4"
                 key={text}
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">

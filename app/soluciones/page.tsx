@@ -72,7 +72,7 @@ export default function SolucionesPage() {
         aside={
           <div className="grid grid-cols-2 gap-3">
             {solutions.slice(0, 4).map((solution) => (
-              <div className="rounded-2xl border border-forest-900/10 bg-white/80 p-5 shadow-sm backdrop-blur" key={solution.title}>
+              <div className="glass-panel rounded-2xl p-5" key={solution.title}>
                 <Icon className="text-leaf-600" name={solution.icon} />
                 <p className="mt-4 text-sm font-bold text-forest-950">{solution.title}</p>
               </div>
@@ -90,7 +90,7 @@ export default function SolucionesPage() {
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {solutions.map((solution) => (
             <article
-              className="group flex h-full flex-col rounded-[1.5rem] border border-forest-900/10 bg-white p-7 text-forest-950 shadow-[0_12px_32px_rgba(12,54,37,0.05)] transition hover:-translate-y-1 hover:border-leaf-500/30 hover:shadow-lg"
+              className="glass-panel group flex h-full flex-col rounded-[1.5rem] p-7 text-forest-950 transition hover:-translate-y-1 hover:border-leaf-500/30 hover:shadow-lg"
               key={solution.title}
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-leaf-100 text-leaf-600">
@@ -114,7 +114,7 @@ export default function SolucionesPage() {
         </div>
       </section>
 
-      <section className="bg-skysoft-100 py-20 sm:py-24">
+      <section className="agro-tech-surface py-20 sm:py-24">
         <div className="container-page grid items-center gap-10 lg:grid-cols-[1fr_auto]">
           <SectionTitle
             eyebrow="Proyecto a medida"

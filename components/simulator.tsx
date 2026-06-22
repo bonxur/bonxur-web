@@ -142,9 +142,10 @@ export function Simulator() {
   const visibleTowers = Math.min(towers, 6);
 
   return (
-    <div className="overflow-hidden rounded-[2rem] border border-forest-900/10 bg-white shadow-[0_30px_80px_rgba(12,54,37,0.1)]">
+    <div className="agro-tech-surface overflow-hidden rounded-[2rem] border border-aqua-500/18 shadow-[0_34px_95px_rgba(12,54,37,0.12)]">
+      <div className="circuit-lines absolute inset-0 opacity-25" />
       <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="p-6 sm:p-9 lg:p-10">
+        <div className="relative p-6 sm:p-9 lg:p-10">
           <div className="mb-8">
             <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-leaf-600">
               Configura tu espacio
@@ -159,7 +160,7 @@ export function Simulator() {
           </div>
 
           <div className="space-y-7">
-            <div className="rounded-xl border border-leaf-500/25 bg-leaf-100/65 p-4">
+            <div className="glass-panel rounded-[1.3rem] p-4">
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <p className="font-bold text-forest-950">Torre Hidropónica Bonxur 30</p>
@@ -297,8 +298,10 @@ export function Simulator() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden bg-cream-50 p-6 text-forest-950 sm:p-9 lg:p-10">
-          <div className="absolute -right-24 -top-20 h-80 w-80 rounded-full bg-leaf-100/60 blur-3xl" />
+        <div className="relative overflow-hidden border-l border-aqua-500/15 bg-gradient-to-br from-aqua-50/90 via-white/76 to-leaf-100/70 p-6 text-forest-950 sm:p-9 lg:p-10">
+          <div className="circuit-lines absolute inset-0 opacity-28" />
+          <div className="absolute -right-24 -top-20 h-80 w-80 rounded-full bg-aqua-100/80 blur-3xl" />
+          <div className="absolute -bottom-28 left-8 h-72 w-72 rounded-full bg-leaf-100/80 blur-3xl" />
           <div className="relative flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-leaf-500">
@@ -317,7 +320,7 @@ export function Simulator() {
             </span>
           </div>
 
-          <div className="relative mt-6 flex flex-col gap-3 rounded-[1.25rem] border border-forest-900/10 bg-white p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+          <div className="glass-panel relative mt-6 flex flex-col gap-3 rounded-[1.25rem] p-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-600">
                 Torre seleccionada
@@ -345,17 +348,17 @@ export function Simulator() {
           </div>
 
           <div className="relative mt-7 grid gap-4 sm:grid-cols-[0.8fr_1.2fr]">
-            <div className="flex min-h-52 flex-col items-center justify-center rounded-[1.5rem] border border-forest-900/10 bg-white p-5 text-center shadow-sm">
+            <div className="glass-panel flex min-h-52 flex-col items-center justify-center rounded-[1.5rem] p-5 text-center">
               <div
                 aria-label={`${formatNumber(results.occupancy)}% de ocupación teórica`}
                 className="relative flex h-32 w-32 items-center justify-center rounded-full"
                 style={{
                   background: `conic-gradient(${
-                    results.fits ? "#56c779" : "#f2c66d"
+                    results.fits ? "#28b8b8" : "#f2c66d"
                   } 0deg ${occupancyAngle}deg, rgba(6,29,21,0.08) ${occupancyAngle}deg 360deg)`,
                 }}
               >
-                <div className="flex h-[102px] w-[102px] flex-col items-center justify-center rounded-full bg-white shadow-inner">
+                <div className="flex h-[102px] w-[102px] flex-col items-center justify-center rounded-full bg-white/92 shadow-inner backdrop-blur">
                   <span
                     className={`font-semibold tracking-[-0.05em] ${
                       results.occupancy >= 10000
@@ -397,7 +400,7 @@ export function Simulator() {
             </div>
           </div>
 
-          <div className="relative mt-4 rounded-[1.5rem] border border-forest-900/10 bg-white p-5 shadow-sm">
+          <div className="glass-panel relative mt-4 rounded-[1.5rem] p-5">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-xs font-extrabold uppercase tracking-[0.13em] text-forest-900/38">
@@ -422,7 +425,7 @@ export function Simulator() {
             <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-forest-900/8">
               <div
                 className={`h-full rounded-full transition-all duration-300 ${
-                  results.fits ? "bg-leaf-500" : "bg-amber-300"
+                  results.fits ? "bg-gradient-to-r from-leaf-500 to-aqua-500" : "bg-amber-300"
                 }`}
                 style={{ width: `${Math.min(results.occupancy, 100)}%` }}
               />
@@ -436,7 +439,7 @@ export function Simulator() {
           <div
             className={`relative mt-4 flex gap-3 rounded-2xl border p-4 text-sm ${
               results.fits
-                ? "border-leaf-600/20 bg-leaf-100 text-forest-900"
+                ? "border-aqua-500/20 bg-aqua-50 text-forest-900"
                 : "border-amber-400/25 bg-amber-100 text-forest-900"
             }`}
           >
@@ -456,7 +459,7 @@ export function Simulator() {
         </div>
       </div>
 
-      <div className="border-t border-forest-900/10 bg-mist-50 p-6 sm:p-9 lg:p-10">
+      <div className="relative border-t border-aqua-500/15 bg-white/72 p-6 backdrop-blur sm:p-9 lg:p-10">
         <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr]">
           <div>
             <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-leaf-600">
@@ -477,8 +480,8 @@ export function Simulator() {
           <div className="grid gap-3 sm:grid-cols-2">
             {recommendations.map((item) => (
               <article
-                className={`rounded-[1.3rem] border bg-white p-5 ${
-                  item.tone === "warning" ? "border-amber-400/35" : "border-forest-900/10"
+                className={`glass-panel rounded-[1.3rem] p-5 ${
+                  item.tone === "warning" ? "!border-amber-400/35" : ""
                 }`}
                 key={item.title}
               >
@@ -498,8 +501,8 @@ export function Simulator() {
           </div>
         </div>
 
-        <div className="mt-7 grid gap-5 rounded-[1.5rem] border border-skysoft-500/25 bg-skysoft-100 p-5 sm:p-6 lg:grid-cols-[auto_1fr_auto] lg:items-center">
-          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-skysoft-500 shadow-sm">
+        <div className="mt-7 grid gap-5 rounded-[1.5rem] border border-aqua-500/25 bg-aqua-50 p-5 shadow-sm sm:p-6 lg:grid-cols-[auto_1fr_auto] lg:items-center">
+          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-aqua-500 shadow-sm">
             <Icon name="ruler" size={22} />
           </span>
           <div>
@@ -536,9 +539,9 @@ function ResultMetric({
   warning?: boolean;
 }) {
   return (
-    <div className="flex min-h-24 flex-col justify-between rounded-2xl border border-forest-900/8 bg-white p-4 shadow-sm">
+    <div className="flex min-h-24 flex-col justify-between rounded-2xl border border-aqua-500/12 bg-white/82 p-4 shadow-sm backdrop-blur">
       <Icon
-        className={warning ? "text-amber-500" : accent ? "text-leaf-600" : "text-forest-900/35"}
+        className={warning ? "text-amber-500" : accent ? "text-aqua-500" : "text-forest-900/35"}
         name={icon}
         size={17}
       />

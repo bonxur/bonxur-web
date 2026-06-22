@@ -47,6 +47,8 @@ export default function Home() {
   return (
     <>
       <section className="page-hero relative overflow-hidden">
+        <div className="topo-lines absolute inset-0 opacity-45" />
+        <div className="circuit-lines absolute inset-y-0 right-0 w-1/2 opacity-25" />
         <div className="container-page relative grid min-h-[calc(100vh-72px)] items-center gap-10 py-10 sm:py-14 lg:grid-cols-[0.96fr_1.04fr] lg:py-16">
           <div className="relative z-10 max-w-3xl">
             <span className="eyebrow">Diseñada y hecha en Galicia</span>
@@ -83,15 +85,23 @@ export default function Home() {
           </div>
 
           <div className="relative mx-auto w-full max-w-[525px] lg:ml-auto">
-            <div className="absolute -left-5 top-1/4 z-20 hidden rounded-2xl border border-forest-900/10 bg-white/88 p-4 shadow-xl backdrop-blur-xl sm:block">
+            <div className="glass-panel absolute -left-5 top-1/4 z-20 hidden rounded-2xl p-4 sm:block">
               <p className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-600">Capacidad</p>
               <p className="mt-1 text-2xl font-bold text-forest-950">30</p>
               <p className="text-xs font-semibold text-forest-900/50">plantas por torre</p>
             </div>
-            <div className="absolute -right-4 bottom-20 z-20 hidden rounded-2xl border border-forest-900/10 bg-white/88 p-4 shadow-xl backdrop-blur-xl sm:block">
+            <div className="glass-panel absolute -right-4 bottom-20 z-20 hidden rounded-2xl p-4 sm:block">
               <p className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-600">Ocupa poco</p>
               <p className="mt-1 text-2xl font-bold text-forest-950">0,5 m²</p>
               <p className="text-xs font-semibold text-forest-900/50">de huella aproximada</p>
+            </div>
+            <div className="glass-panel absolute -right-2 top-12 z-20 hidden rounded-full px-3 py-2 text-xs font-bold text-forest-900/66 sm:flex sm:items-center sm:gap-2">
+              <Icon className="text-aqua-500" name="droplet" size={15} />
+              Agua recirculada
+            </div>
+            <div className="glass-panel absolute -left-2 bottom-9 z-20 hidden rounded-full px-3 py-2 text-xs font-bold text-forest-900/66 sm:flex sm:items-center sm:gap-2">
+              <Icon className="text-leaf-600" name="zap" size={15} />
+              Sensor activo
             </div>
             <div className="absolute -inset-4 rounded-[2rem] border border-white/70 bg-white/30" />
             <div className="soft-shadow relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white bg-white">
@@ -118,7 +128,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white py-20 sm:py-28">
+      <section className="relative bg-white py-20 sm:py-28">
+        <div className="topo-lines absolute inset-0 opacity-25" />
         <div className="container-page">
         <SectionTitle
           align="center"
@@ -129,7 +140,7 @@ export default function Home() {
         <div className="mt-12 grid gap-5 md:grid-cols-3">
           {benefits.map((benefit) => (
             <Card className="group relative overflow-hidden p-7 transition hover:-translate-y-1 hover:border-leaf-600/25" key={benefit.title}>
-              <div className="tech-dots absolute -right-3 -top-3 h-24 w-24 opacity-35 transition group-hover:opacity-60" />
+              <div className="circuit-lines absolute -right-6 -top-6 h-32 w-32 rounded-full opacity-25 transition group-hover:opacity-45" />
               <div className="relative">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full border border-leaf-600/15 bg-leaf-100 text-leaf-600 shadow-sm">
                   <Icon name={benefit.icon} />
@@ -148,7 +159,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-y border-forest-900/8 bg-mist-50 py-20 sm:py-28">
+      <section className="agro-tech-surface border-y border-forest-900/8 py-20 sm:py-28">
         <div className="container-page">
           <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
             <div>
@@ -175,7 +186,7 @@ export default function Home() {
                 ["Capacidad", "30 plantas"],
                 ["Huella", "0,5 m² aprox."],
               ].map(([label, value]) => (
-                <div className="rounded-[1.2rem] border border-forest-900/10 bg-white p-6 shadow-sm" key={label}>
+                <div className="glass-panel rounded-[1.2rem] p-6" key={label}>
                   <p className="text-xs font-extrabold uppercase tracking-[0.13em] text-leaf-600">{label}</p>
                   <p className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-forest-950">{value}</p>
                 </div>
@@ -215,7 +226,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-cream-50 py-20 sm:py-28">
+      <section className="agro-tech-surface py-20 sm:py-28">
         <div className="container-page">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
             <div>
@@ -230,7 +241,7 @@ export default function Home() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {steps.map(([number, title, text]) => (
-                <div className="relative rounded-[1.4rem] border border-forest-900/10 bg-white p-6 shadow-[0_14px_40px_rgba(6,29,21,0.055)] transition hover:-translate-y-1 sm:p-8" key={number}>
+                <div className="glass-panel relative rounded-[1.4rem] p-6 transition hover:-translate-y-1 sm:p-8" key={number}>
                   <span className="text-xs font-extrabold uppercase tracking-[0.12em] text-leaf-600">
                     {number}
                   </span>
@@ -245,20 +256,20 @@ export default function Home() {
 
       <section className="container-page py-20 sm:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          <div className="tech-card relative overflow-hidden rounded-[1.3rem] border border-skysoft-500/20 bg-skysoft-100 p-8 sm:p-12">
-            <div className="tech-grid absolute inset-0 opacity-35" />
+          <div className="tech-card relative overflow-hidden rounded-[1.6rem] border border-aqua-500/20 bg-gradient-to-br from-aqua-50 via-white to-leaf-100/70 p-8 sm:p-12">
+            <div className="circuit-lines absolute inset-0 opacity-30" />
             <p className="tech-label relative text-[0.64rem] font-bold text-forest-900/45">
               Capacidad Bonxur 30
             </p>
             <div className="relative mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-[0.9rem] border border-white bg-white/90 p-6 shadow-sm">
+              <div className="rounded-[1.1rem] border border-white/70 bg-white/82 p-6 shadow-sm backdrop-blur">
                 <p className="tech-label text-[0.58rem] font-bold text-leaf-600">Una torre</p>
                 <p className="mt-3 text-3xl font-semibold tracking-tight text-forest-950">
                   30 plantas
                 </p>
                 <p className="mt-2 text-sm text-forest-900/55">0,5 m² de huella aproximada</p>
               </div>
-              <div className="rounded-[0.9rem] border border-leaf-600/20 bg-leaf-100 p-6 shadow-sm">
+              <div className="rounded-[1.1rem] border border-leaf-600/20 bg-leaf-100/75 p-6 shadow-sm backdrop-blur">
                 <p className="tech-label text-[0.58rem] font-bold text-leaf-700">Diez torres</p>
                 <p className="mt-3 text-3xl font-semibold tracking-tight text-forest-950">300 plantas</p>
                 <p className="mt-2 text-sm text-forest-900/58">5 m² de huella aproximada</p>

@@ -25,7 +25,7 @@ export function Navbar() {
       <div className="container-page flex h-[72px] items-center justify-between">
         <Logo />
         <nav
-          className="hidden items-center gap-0.5 rounded-full border border-forest-900/8 bg-cream-50/85 p-1 lg:flex"
+          className="hidden items-center gap-0.5 rounded-full border border-aqua-500/12 bg-aqua-50/80 p-1 lg:flex"
           aria-label="Navegación principal"
         >
           {links.map((link) => {

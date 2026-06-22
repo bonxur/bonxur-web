@@ -84,9 +84,10 @@ export default function TorrePage() {
   return (
     <>
       <section className="page-hero py-14 sm:py-20 lg:py-24">
+        <div className="topo-lines absolute inset-0 opacity-40" />
         <div className="container-page relative z-10 grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="relative mx-auto w-full max-w-[520px]">
-            <div className="absolute -inset-4 rounded-[2rem] border border-forest-900/[0.055]" />
+            <div className="glass-panel absolute -inset-4 rounded-[2rem]" />
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white bg-white shadow-[0_30px_80px_rgba(6,29,21,0.12)]">
               <Image
                 alt=""
@@ -137,7 +138,7 @@ export default function TorrePage() {
                 ["Capacidad", "30 plantas"],
                 ["Huella", "0,5 m²"],
               ].map(([label, value]) => (
-                <div className="rounded-xl border border-forest-900/10 bg-white/70 p-3" key={label}>
+                <div className="glass-panel rounded-xl p-3" key={label}>
                   <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-forest-900/35">
                     {label}
                   </p>
@@ -161,7 +162,7 @@ export default function TorrePage() {
               Solicitar torre de prueba
             </ButtonLink>
           </div>
-          <div className="overflow-hidden rounded-[1.5rem] border border-forest-900/10 bg-white">
+          <div className="glass-panel overflow-hidden rounded-[1.5rem]">
             {specifications.map(([label, value], index) => (
               <div
                 className={`grid grid-cols-[0.8fr_1.2fr] gap-4 px-5 py-4 sm:px-6 ${
@@ -177,7 +178,7 @@ export default function TorrePage() {
         </div>
       </section>
 
-      <section className="bg-mist-50 py-20 sm:py-28">
+      <section className="agro-tech-surface py-20 sm:py-28">
         <div className="container-page">
           <SectionTitle
             align="center"
@@ -187,8 +188,8 @@ export default function TorrePage() {
           />
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {included.map((item) => (
-              <article className="rounded-[1.4rem] border border-forest-900/10 bg-white p-6" key={item.title}>
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-leaf-100 text-leaf-600">
+              <article className="glass-panel rounded-[1.4rem] p-6" key={item.title}>
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-leaf-100 text-leaf-600">
                   <Icon name={item.icon} size={20} />
                 </span>
                 <h3 className="mt-6 text-lg font-bold text-forest-950">{item.title}</h3>
@@ -199,7 +200,7 @@ export default function TorrePage() {
         </div>
       </section>
 
-      <section className="bg-cream-50 py-20 sm:py-28" id="como-funciona">
+      <section className="bg-aqua-50 py-20 sm:py-28" id="como-funciona">
         <div className="container-page">
           <SectionTitle
             align="center"
@@ -210,7 +211,7 @@ export default function TorrePage() {
           <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {cycle.map(([number, title, text, icon]) => (
               <article
-                className="rounded-[1.5rem] border border-forest-900/10 bg-white p-6 shadow-[0_14px_42px_rgba(6,29,21,0.055)] transition hover:-translate-y-1 hover:border-leaf-500/30"
+                className="glass-panel rounded-[1.5rem] p-6 transition hover:-translate-y-1 hover:border-leaf-500/30"
                 key={number}
               >
                 <div className="flex items-center justify-between">
@@ -229,7 +230,7 @@ export default function TorrePage() {
         </div>
       </section>
 
-      <section className="bg-mist-50 py-20 sm:py-28">
+      <section className="agro-tech-surface py-20 sm:py-28">
         <div className="container-page max-w-4xl">
           <SectionTitle
             align="center"
@@ -239,7 +240,7 @@ export default function TorrePage() {
           <div className="mt-10 space-y-3">
             {faqs.map((faq) => (
               <details
-                className="group rounded-[1.2rem] border border-forest-900/10 bg-white px-5 py-4 open:shadow-md sm:px-6"
+                className="glass-panel group rounded-[1.2rem] px-5 py-4 open:shadow-md sm:px-6"
                 key={faq.question}
               >
                 <summary className="cursor-pointer list-none pr-8 font-bold text-forest-950 marker:hidden">
