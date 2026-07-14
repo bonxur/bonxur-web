@@ -6,9 +6,26 @@ import { PageHeader } from "@/components/page-header";
 import { SectionTitle } from "@/components/section-title";
 
 export const metadata: Metadata = {
-  title: "Soluciones con la Torre Hidropónica Bonxur 30",
+  title: "Soluciones con torre hidropónica para casa, terraza y restaurantes",
   description:
-    "Soluciones con la Torre Hidropónica Bonxur 30 para agricultura, restauración, hogares, educación y turismo.",
+    "Soluciones Bonxur con torre hidropónica vertical para particulares, terrazas, restaurantes, hoteles, casas rurales, agricultores y centros educativos en Galicia.",
+  alternates: {
+    canonical: "/soluciones",
+  },
+  openGraph: {
+    title: "Soluciones Bonxur con torre hidropónica vertical",
+    description:
+      "Cultivo hidropónico sin tierra para casas, terrazas, restaurantes, hoteles, casas rurales, agricultores y centros educativos.",
+    url: "/soluciones",
+    images: [
+      {
+        url: "/images/torre-con-plantas.jpg",
+        width: 1200,
+        height: 1600,
+        alt: "Torre hidropónica Bonxur para terrazas, restaurantes y proyectos agrícolas",
+      },
+    ],
+  },
 };
 
 const solutions: {
@@ -16,49 +33,56 @@ const solutions: {
   title: string;
   text: string;
   benefit: string;
-  model: string;
+  detail: string;
 }[] = [
   {
-    icon: "sprout",
-    title: "Agricultores",
-    text: "La modularidad de Bonxur 30 permite plantear pruebas piloto, nuevos cultivos e instalaciones productivas.",
-    benefit: "Producción modular",
-    model: "Torre Bonxur 30 en configuración modular",
+    icon: "home",
+    title: "Particulares",
+    text: "Convierte una terraza, patio o porche en una zona de cultivo limpia y compacta.",
+    benefit: "Autoconsumo fresco",
+    detail: "Ideal para empezar con hojas verdes y aromáticas de uso diario.",
+  },
+  {
+    icon: "sun",
+    title: "Terrazas",
+    text: "Aprovecha luz natural y espacio vertical sin montar bancales ni grandes jardineras.",
+    benefit: "Huerto vertical urbano",
+    detail: "Revisamos orientación, viento, acceso a agua y electricidad.",
   },
   {
     icon: "restaurant",
     title: "Restaurantes",
-    text: "Bonxur 30 encaja en cocinas, terrazas y locales que quieren acercar el cultivo al plato.",
+    text: "Acerca aromáticas y hojas frescas a cocina, terraza o sala con una historia visible.",
     benefit: "Del cultivo al plato",
-    model: "Recomendado: Torre Bonxur 30",
-  },
-  {
-    icon: "home",
-    title: "Particulares",
-    text: "Convierte una terraza, patio o porche en una huerta compacta y fácil de disfrutar.",
-    benefit: "Autoconsumo cercano",
-    model: "Recomendado: Bonxur 30",
-  },
-  {
-    icon: "school",
-    title: "Centros educativos",
-    text: "Aprende biología, sostenibilidad y tecnología con una experiencia práctica y medible.",
-    benefit: "Aula viva",
-    model: "Recomendado: Bonxur 30",
+    detail: "Útil para albahaca, rúcula, menta, canónigos y cultivos de alto valor culinario.",
   },
   {
     icon: "hotel",
     title: "Hoteles",
-    text: "Combina varias torres según la superficie para incorporar producto propio en terrazas, jardines o cocinas.",
-    benefit: "Experiencia sostenible",
-    model: "Instalación modular Bonxur 30",
+    text: "Añade una experiencia sostenible y diferencial en terrazas, jardines o zonas gastronómicas.",
+    benefit: "Experiencia premium",
+    detail: "La torre puede funcionar como producto, decoración viva y relato de sostenibilidad.",
   },
   {
     icon: "building",
     title: "Casas rurales",
-    text: "Conecta a los huéspedes con el territorio mediante una pequeña cosecha local.",
+    text: "Conecta a los huéspedes con el territorio y con una pequeña cosecha cercana.",
     benefit: "Turismo con raíces",
-    model: "Recomendado: Bonxur 30",
+    detail: "Una instalación sencilla para explicar cultivo, agua y producto local.",
+  },
+  {
+    icon: "sprout",
+    title: "Agricultores",
+    text: "Prueba cultivo vertical, nuevos formatos y producción modular antes de escalar.",
+    benefit: "Prueba piloto agrícola",
+    detail: "Adecuada para validar cultivos, manejo y rendimiento por superficie.",
+  },
+  {
+    icon: "school",
+    title: "Centros educativos",
+    text: "Convierte biología, tecnología y sostenibilidad en una experiencia práctica.",
+    benefit: "Aula viva",
+    detail: "Permite observar raíces, agua, nutrientes, luz y crecimiento vegetal.",
   },
 ];
 
@@ -67,8 +91,8 @@ export default function SolucionesPage() {
     <>
       <PageHeader
         eyebrow="Soluciones"
-        title="Una torre. Muchas maneras de crear valor."
-        text="Desde una terraza particular hasta un proyecto profesional: Bonxur 30 se adapta al objetivo mediante configuraciones modulares."
+        title="Una torre hidropónica. Muchas formas de crear valor."
+        text="Bonxur 30 se adapta a hogares, terrazas, restaurantes, hoteles, casas rurales, agricultores y centros educativos mediante instalaciones compactas y modulares."
         aside={
           <div className="grid grid-cols-2 gap-3">
             {solutions.slice(0, 4).map((solution) => (
@@ -84,8 +108,8 @@ export default function SolucionesPage() {
       <section className="container-page py-20 sm:py-28">
         <SectionTitle
           eyebrow="Para cada espacio"
-          title="El cultivo se acerca a quien lo necesita."
-          text="El mismo sistema puede priorizar rentabilidad, frescura, aprendizaje, bienestar o experiencia."
+          title="El cultivo vertical se acerca a quien lo necesita."
+          text="El valor no siempre es el mismo: puede ser autoconsumo, frescura en cocina, aprendizaje, experiencia turística o validación agrícola."
         />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {solutions.map((solution) => (
@@ -100,14 +124,10 @@ export default function SolucionesPage() {
                 {solution.benefit}
               </p>
               <h2 className="mt-2 text-2xl font-bold tracking-tight">{solution.title}</h2>
-              <p className="mt-3 flex-1 leading-7 text-forest-900/55">
-                {solution.text}
-              </p>
-              <p className="mt-6 inline-flex self-start rounded-lg border border-leaf-500/20 bg-leaf-100 px-3 py-2 text-xs font-bold text-forest-900">
-                {solution.model}
-              </p>
-              <ButtonLink className="mt-5 w-full" href="/cuestionario" variant="secondary" arrow>
-                Solicitar torre de prueba
+              <p className="mt-3 leading-7 text-forest-900/58">{solution.text}</p>
+              <p className="mt-4 flex-1 text-sm leading-6 text-forest-900/50">{solution.detail}</p>
+              <ButtonLink className="mt-6 w-full" href="/cuestionario" variant="secondary" arrow>
+                Solicitar información
               </ButtonLink>
             </article>
           ))}
@@ -117,9 +137,9 @@ export default function SolucionesPage() {
       <section className="agro-tech-surface py-20 sm:py-24">
         <div className="container-page grid items-center gap-10 lg:grid-cols-[1fr_auto]">
           <SectionTitle
-            eyebrow="Proyecto a medida"
-            title="¿Tu caso no encaja en una casilla?"
-            text="Cuéntanos el espacio, la ubicación y el objetivo. Pensaremos contigo una primera configuración sensata."
+            eyebrow="Vigo y Galicia"
+            title="Empezamos con instalaciones cercanas y casos reales."
+            text="Trabajamos el primer encaje con personas y negocios de Vigo, Redondela, Nigrán, Gondomar, Pontevedra, Baiona, Cangas, Moaña y alrededores para aprender de espacios reales."
           />
           <ButtonLink href="/cuestionario" arrow>
             Pedir presupuesto
@@ -127,7 +147,12 @@ export default function SolucionesPage() {
         </div>
       </section>
 
-      <CTASection />
+      <CTASection
+        title="Cuéntanos qué espacio tienes."
+        text="Te orientamos sobre número de torres, cultivos adecuados y condiciones básicas para instalar una Torre Bonxur 30."
+        primaryHref="/cuestionario"
+        primaryLabel="Solicitar torre de prueba"
+      />
     </>
   );
 }

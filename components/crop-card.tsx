@@ -11,7 +11,7 @@ export function CropCard({ crop }: { crop: Crop }) {
   const [imageSrc, setImageSrc] = useState(crop.image);
 
   return (
-    <article className="glass-panel group overflow-hidden rounded-[1.5rem] transition hover:-translate-y-1 hover:shadow-xl">
+    <article className="glass-panel group overflow-hidden rounded-[1.5rem] transition hover:-translate-y-1 hover:border-leaf-500/25 hover:shadow-xl">
       <div className="relative h-52 overflow-hidden bg-gradient-to-br from-leaf-100 to-aqua-100">
         <Image
           alt={`${crop.name} para cultivo hidropónico`}
@@ -28,7 +28,7 @@ export function CropCard({ crop }: { crop: Crop }) {
         </span>
       </div>
 
-      <div className="p-6">
+      <div className="p-5 sm:p-6">
         <div className="flex items-start justify-between gap-4">
           <div>
             <h2 className="text-2xl font-bold tracking-tight text-forest-950">{crop.name}</h2>

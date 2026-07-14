@@ -9,6 +9,7 @@ export function PageHeader({ eyebrow, title, text, aside }: Props) {
   return (
     <section className="page-hero py-16 sm:py-20 lg:py-28">
       <div className="topo-lines absolute inset-0 opacity-40" />
+      <div className="water-lines absolute inset-x-0 bottom-0 h-1/2 opacity-30" />
       <div className="container-page relative z-10 grid items-center gap-10 lg:grid-cols-[1fr_0.72fr]">
         <div className="max-w-3xl">
           <span className="eyebrow">{eyebrow}</span>

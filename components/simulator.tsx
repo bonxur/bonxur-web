@@ -144,6 +144,7 @@ export function Simulator() {
   return (
     <div className="agro-tech-surface overflow-hidden rounded-[2rem] border border-aqua-500/18 shadow-[0_34px_95px_rgba(12,54,37,0.12)]">
       <div className="circuit-lines absolute inset-0 opacity-25" />
+      <div className="premium-orb left-10 top-10 h-28 w-28 opacity-55" />
       <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
         <div className="relative p-6 sm:p-9 lg:p-10">
           <div className="mb-8">
@@ -151,11 +152,11 @@ export function Simulator() {
               Configura tu espacio
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-forest-950">
-              Dimensiona tu instalación
+              Dimensiona tu instalación Bonxur
             </h2>
             <p className="mt-2 text-sm leading-6 text-forest-900/50">
-              El simulador permite calcular desde pequeñas instalaciones domésticas hasta
-              proyectos agrícolas o comerciales de gran escala. Las cifras son orientativas.
+              Estima desde una terraza doméstica hasta un proyecto agrícola o comercial.
+              Las cifras son orientativas y sirven como punto de partida para revisar tu caso.
             </p>
           </div>
 
@@ -517,7 +518,7 @@ export function Simulator() {
             </p>
           </div>
           <ButtonLink className="w-full lg:w-auto" href="/cuestionario" arrow>
-            Pedir presupuesto
+            Solicitar estudio del espacio
           </ButtonLink>
         </div>
       </div>

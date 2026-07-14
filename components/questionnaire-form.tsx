@@ -102,10 +102,6 @@ export function QuestionnaireForm() {
     if (fields.ciudad.trim().length < 2) {
       nextErrors.ciudad = "Indica tu ciudad o zona.";
     }
-    if (fields.zonaInstalacion.trim().length < 2) {
-      nextErrors.zonaInstalacion = "Indica la zona aproximada de instalación.";
-    }
-
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
 
@@ -147,12 +143,26 @@ export function QuestionnaireForm() {
 
   return (
     <form
-      className="glass-panel rounded-[2rem] p-5 sm:p-8 lg:p-9"
+      className="glass-panel relative overflow-hidden rounded-[2rem] p-5 sm:p-8 lg:p-9"
       noValidate
       onSubmit={submit}
     >
+      <div className="circuit-lines absolute inset-0 opacity-15" />
+      <div className="relative">
       <input name="_subject" type="hidden" value={FORM_SUBJECT} />
       <input name="origen" type="hidden" value={FORM_ORIGIN} />
+
+      <div className="mb-7">
+        <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-leaf-600">
+          Formulario rápido
+        </p>
+        <h2 className="mt-2 text-2xl font-bold tracking-tight text-forest-950">
+          Cuéntanos lo esencial
+        </h2>
+        <p className="mt-2 text-sm leading-6 text-forest-900/52">
+          Tardas menos de dos minutos. El mensaje final es opcional.
+        </p>
+      </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Nombre" htmlFor="nombre" error={errors.nombre}>
@@ -211,7 +221,7 @@ export function QuestionnaireForm() {
 
       <div className="mt-5">
         <Field
-          label="Dirección aproximada o zona de instalación"
+          label="Zona de instalación"
           htmlFor="zona_instalacion"
           error={errors.zonaInstalacion}
         >
@@ -220,8 +230,7 @@ export function QuestionnaireForm() {
             id="zona_instalacion"
             name="zona_instalacion"
             onChange={(event) => setFields({ ...fields, zonaInstalacion: event.target.value })}
-            placeholder="Barrio, parroquia, zona o tipo de espacio"
-            required
+            placeholder="Barrio, parroquia o zona aproximada, si la sabes"
             type="text"
             value={fields.zonaInstalacion}
           />
@@ -331,6 +340,7 @@ export function QuestionnaireForm() {
       <p className="mt-4 text-xs text-forest-900/40">
         Revisaremos tu caso y te responderemos para valorar la instalación más adecuada.
       </p>
+      </div>
     </form>
   );
 }

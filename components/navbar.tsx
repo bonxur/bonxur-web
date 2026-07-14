@@ -13,7 +13,7 @@ const links = [
   { href: "/cultivos", label: "Cultivos" },
   { href: "/soluciones", label: "Soluciones" },
   { href: "/proyecto", label: "Proyecto" },
-  { href: "/cuestionario", label: "Cuestionario" },
+  { href: "/cuestionario", label: "Pedir presupuesto" },
 ];
 
 export function Navbar() {
@@ -49,12 +49,12 @@ export function Navbar() {
           })}
         </nav>
         <div className="hidden items-center gap-4 lg:flex">
-          <span className="flex items-center gap-2 text-xs font-bold text-forest-900/45">
+          <span className="flex items-center gap-2 text-xs font-bold text-forest-900/48">
             <span className="h-2 w-2 rounded-full bg-leaf-600" />
-            Hecha en Galicia
+            Vigo y alrededores
           </span>
           <ButtonLink className="min-h-10 px-4 py-2" href="/cuestionario" arrow>
-            Pedir presupuesto
+            Solicitar información
           </ButtonLink>
         </div>
         <button
@@ -85,7 +85,7 @@ export function Navbar() {
               </Link>
             ))}
             <ButtonLink className="mt-3 w-full" href="/cuestionario" arrow>
-              Pedir presupuesto
+              Solicitar torre de prueba
             </ButtonLink>
           </nav>
         </div>

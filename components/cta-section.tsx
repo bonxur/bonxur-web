@@ -9,8 +9,8 @@ type Props = {
 };
 
 export function CTASection({
-  title = "¿Quieres probar una torre Bonxur en Vigo o alrededores?",
-  text = "Rellena el cuestionario y estudiaremos tu espacio, ubicación y número de torres que pueden encajar.",
+  title = "¿Quieres saber si una torre Bonxur encaja en tu espacio?",
+  text = "Cuéntanos tu terraza, patio, finca o local y estudiaremos contigo una primera instalación cerca de Vigo.",
   primaryLabel = "Pedir presupuesto",
   primaryHref = "/cuestionario",
 }: Props) {
@@ -26,7 +26,7 @@ export function CTASection({
               <Icon name="sprout" />
             </div>
             <p className="mb-3 text-sm font-extrabold uppercase tracking-[0.12em] text-leaf-600">
-              Primeras pruebas locales
+            Primeras instalaciones locales
             </p>
             <h2 className="text-3xl font-semibold tracking-[-0.05em] text-forest-950 sm:text-4xl">
               {title}
@@ -41,7 +41,7 @@ export function CTASection({
               href="/cuestionario"
               variant="secondary"
             >
-              Solicitar torre de prueba
+              Solicitar información
             </ButtonLink>
           </div>
         </div>

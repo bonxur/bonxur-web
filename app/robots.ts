@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://bonxur.gal/sitemap.xml",
+    sitemap: "https://bonxur.com/sitemap.xml",
   };
 }

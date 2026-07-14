@@ -19,12 +19,19 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-6 max-w-sm text-sm leading-6 text-forest-900/62">
-            Tecnología hidropónica vertical diseñada en Galicia para cultivar más,
-            más cerca y con menos recursos.
+            Tecnología hidropónica vertical diseñada en Galicia para cultivar más cerca,
+            sin tierra y aprovechando mejor cada metro disponible.
           </p>
-          <div className="mt-7 inline-flex items-center gap-2 rounded-full border border-aqua-500/15 bg-white/82 px-4 py-2 text-sm font-bold text-forest-900/70 shadow-sm backdrop-blur">
-            <span className="h-2 w-2 rounded-full bg-leaf-600" />
-            Hecha en Galicia
+          <div className="mt-7 grid max-w-md gap-2 sm:grid-cols-2">
+            {["Hecha en Galicia", "Pruebas en Vigo", "Acompañamiento inicial", "Producto físico real"].map((item) => (
+              <div
+                className="inline-flex items-center gap-2 rounded-full border border-aqua-500/15 bg-white/82 px-3 py-2 text-xs font-bold text-forest-900/70 shadow-sm backdrop-blur"
+                key={item}
+              >
+                <span className="h-2 w-2 rounded-full bg-leaf-600" />
+                {item}
+              </div>
+            ))}
           </div>
         </div>
         <div>
@@ -52,6 +59,13 @@ export function Footer() {
             <Icon name="map" size={18} />
             Vigo y alrededores
           </p>
+          <Link
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-forest-800 to-leaf-600 px-4 py-2 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(32,167,93,0.18)]"
+            href="/cuestionario"
+          >
+            Pedir presupuesto
+            <Icon name="arrow" size={16} />
+          </Link>
         </div>
       </div>
       <div className="relative border-t border-forest-900/10 bg-white/55 backdrop-blur">
